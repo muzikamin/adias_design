@@ -1,0 +1,136 @@
+header, section {
+    width: 100%;
+    color: #030303;
+}
+
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sec_pad {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1620px;
+    overflow: hidden;
+    padding: 120px 20px 0 20px;
+}
+
+.sec_title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sec_title>h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+.sec_title>p {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.mo_space {
+    display: none;
+}
+
+
+
+.btn {
+    width: 160px;
+    text-align: center;
+    border: solid 1px #4a4a4a;
+    font-size: 18px;
+    padding: 16px;
+    margin: 50px auto 0 auto;
+}
+
+.btn:hover {
+    background-color: #4a4a4a;
+    color: #fff;
+}
+
+
+
+
+
+/* 여기서부터 미디어쿼리 */
+
+/* ----1420px-------------------------------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 1420px) {
+
+    .sec_pad {
+        padding: 140px 0 0 0;
+    }
+
+    .sec_title {
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        width: 140px;
+        font-size: 16px;
+        padding: 14px;
+        margin: 40px auto 0 auto;
+    }
+
+
+}
+
+/* ----960px-------------------------------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 960px) {
+
+    .sec_title {
+        margin-bottom: 0;
+    }
+
+    .btn {
+        width: 120px;
+        font-size: 14px;
+        padding: 12px;
+        margin: 30px auto 0 auto;
+    }
+
+
+}
+
+/* ----760px-------------------------------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 760px) {
+
+    .sec_title>h2 {
+        font-size: 6vw;
+        margin-bottom: 2vw;
+    }
+    
+    .sec_title>p {
+        font-size: 3vw;
+    }
+
+}
+
+/* ----560px-------------------------------------------------------------------------------------------------------------------- */
+
+@media all and (max-width: 560px) {
+
+    .sec_title>h2 {
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    
+    .sec_title>p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .mo_space {
+        display: block;
+    }
+
+
+}
